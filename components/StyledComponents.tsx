@@ -29,16 +29,16 @@ const AvailabilityCircle = styled.span`
 
 const COLORS = {
     green: {
-        '--bgColor': 'rgba(52, 211, 153, 0.75)',
-        '--pulseColor': 'rgba(16, 185, 129, 0.75)',
+        '--bgColor': 'rgba(52, 211, 153, 1)',
+        '--pulseColor': 'rgba(16, 185, 129, 1)',
     } as CSSProperties,
     yellow: {
-        '--bgColor': 'rgba(251, 191, 36, 0.75)',
-        '--pulseColor': 'rgba(245, 158, 11, 0.75)',
+        '--bgColor': 'rgba(251, 191, 36, 1)',
+        '--pulseColor': 'rgba(245, 158, 11, 1)',
     } as CSSProperties,
     red: {
-        '--bgColor': 'rgba(248, 113, 113, 0.75)',
-        '--pulseColor': 'rgba(239, 68, 68, 0.75)',
+        '--bgColor': 'rgba(248, 113, 113, 1)',
+        '--pulseColor': 'rgba(239, 68, 68, 1)',
     } as CSSProperties,
 };
 
